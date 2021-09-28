@@ -1,0 +1,38 @@
+.container{
+    width: auto;
+    margin: 2% 5%;
+}
+.shop-container{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+.product-container{
+    border-right: 1px solid lightgray;
+    margin-left: 10%;
+}
+.input{
+    width:100%;
+    background-color:rgba(19, 18, 18, 0.842);
+    padding-left: 5%;
+    padding-right: 3%;
+    
+}
+.input input{
+width:80%;
+padding: 8px;
+border-radius: 10px;
+}
+input:hover{
+    border: 2px solid grey;
+}
+.input button{
+    color:goldenrod;
+    font-weight: bolder;
+    font-size: large;
+    padding: 6px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.input button:hover{
+    border: 2px solid grey;
+}
